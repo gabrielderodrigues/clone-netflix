@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: inline;
+}
+
+.container p{
+    text-align: center;
+}
+
+.container p img{
+    width: 800px;
+}
+
+.acessar-netflix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acessar-netflix button{
+    width: 200px;
+    height: 80px;
+
+    background-color: rgb(89, 89, 89);
+
+    border-radius: 20px;
+    border: none;
+
+}
+
+.acessar-netflix button:hover{
+    background-color: red;
+    transition: 0.30s;
+}
+
+.acessar-netflix button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}

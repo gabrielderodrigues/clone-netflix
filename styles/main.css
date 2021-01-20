@@ -1,0 +1,109 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: red;
+}
+
+/* Filme Principal */
+.filme-principal{
+    font-size: 16px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0)), url('/images/capa-vikings.jpg');
+    height: 580px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .titulo{
+    margin-left: 25px;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.title-topics{
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.box-series{
+    height: 60%;
+    display: block;
+}
+
+.box-movies{
+    height: 60%;
+    display: block;
+}
