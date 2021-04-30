@@ -41,8 +41,8 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0)), url('/images/capa-vikings.jpg');
-    height: 580px;
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0)), url('../images/capa-vikings.jpg');
+    height: 75%;
     background-size: cover;
 
     display: flex;
